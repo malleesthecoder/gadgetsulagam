@@ -1,0 +1,734 @@
+     * {
+         margin: 0;
+         padding: 0;
+         box-sizing: border-box;
+         font-family: 'Poppins', sans-serif;
+     }
+     /* header section */
+     /* header {
+         background-color: white;
+         width: 100%;
+         text-align: center;
+         display: inline-block;
+         font-weight: 200;
+         font-style: italic;
+     } */
+     /* 
+     #belowheading {
+         color: #ffcc00;
+         margin-top: 30px;
+     } */
+     /* first laptop image */
+     /* .secondlap {
+         float: right;
+         width: 30%;
+         height: 60%;
+         justify-content: center;
+     } */
+     /* second laptop image */
+     /* .firstlap {
+         float: left;
+         padding-left: 40px;
+         height: 300px;
+         width: 300px;
+     } */
+     /* #navbar {
+         position: sticky !important;
+         top: 0;
+         left: 0;
+         z-index: 100;
+         border-bottom: 2px solid grey;
+         /* background-color: lightgrey !important;  
+     } */
+     /* brand name */
+     /* .navbar-brand {
+         color: black !important;
+         text-indent: 2px;
+     } */
+     /* navbar items */
+     /* .nav-link {
+         background-color: pink;
+         color: black !important;
+         border-bottom: 2px solid transparent;
+         text-indent: 2px;
+     } */
+     /* when hover navbar looks */
+     /*      
+     .navbar-nav a:hover,
+     .navbar-brand a:hover {
+         border-bottom: 2px solid deeppink;
+         color: deeppink !important;
+     } */
+     /* SignIn button */
+     /* .btn {
+         display: flex;
+         align-items: center;
+         border-radius: 15px !important;
+         background-color: deeppink !important;
+     } */
+     /* navbar */
+     
+     #navbar {
+         position: sticky;
+         top: 0;
+         left: 0;
+         z-index: 100;
+         padding: .5rem 5rem;
+         background: black;
+     }
+     /* brandname decoration */
+     
+     .navbar .navbar-brand {
+         font-size: 25px;
+         font-weight: 600;
+         color: #ffcc00;
+     }
+     /* navbar items with anchor tag */
+     
+     #navbarSupportedContent a {
+         color: #fff;
+         border-bottom: 2px solid transparent;
+         text-indent: 2px;
+     }
+     /* when hover navbar looks */
+     
+     #navbarSupportedContent a:hover {
+         border-bottom: 2px solid #ffcc00;
+     }
+     /* sign in button decoration */
+     
+     #navbarSupportedContent button {
+         /* background: #ffcc00; */
+         border-radius: 15px;
+         /* color: #000; */
+     }
+     
+     .signingbtn a {
+         text-decoration: none !important;
+         border-color: #F56300 !important;
+     }
+     /* sign in button anchor tag decoration */
+     
+     #navbarSupportedContent button a {
+         text-decoration: none;
+         color: #000;
+         font-weight: 500;
+     }
+     /* all button color */
+     
+     .btn {
+         background-color: #F56300 !important;
+     }
+     /* phone heading anchor tag */
+     
+     .phonehead {
+         text-decoration: none;
+         color: #000;
+     }
+     /* phoneheadingline */
+     
+     .Phoneline1 {
+         display: flex;
+         justify-content: center;
+         padding-top: 30px;
+     }
+     /* first row phones */
+     
+     .firstrowphones {
+         display: flex;
+         flex-wrap: wrap;
+         align-items: center;
+         justify-content: space-around;
+     }
+     /* discount offer line*/
+     
+     .firstrowphones .offer {
+         background: #F56300;
+         border-radius: 15px;
+         padding: 4px;
+         display: inline-block;
+     }
+     /* Subtopic of phone */
+     
+     .subheading {
+         font-size: small;
+     }
+     /* Button Decoration common for all */
+     
+     .btn-used,
+     .btn-usedd {
+         border-radius: 30px;
+         background-color: #F56300;
+         padding: 5px;
+     }
+     /* Button Decoration when hover common for all */
+     
+     .btn-used:hover,
+     .btn-usedd:hover {
+         background: white;
+         color: black;
+     }
+     
+     .btn-usedd {
+         margin-left: 5px;
+     }
+     
+     .price {
+         display: flex;
+         align-items: baseline;
+         margin-top: 10px;
+     }
+     /* OverAll first article  */
+     
+     .firstrowphones .firstphone {
+         /* background: #f5f3f3; */
+         border-radius: 10px;
+     }
+     /*firstphone details  */
+     
+     .firstphone {
+         background: #f5f3f3;
+         border-radius: 10px;
+         width: 540px;
+         height: 470px;
+         padding: 20px;
+     }
+     /* @media phone image for mobile screen */
+     
+     @media(max-width:600px) {
+         .phonepic1 .narzo60x {
+             width: 200px;
+             height: 100px;
+             position: relative;
+             bottom: 60px;
+             left: 30px;
+         }
+         .firstphone {
+             height: 485px;
+             margin-bottom: 10px;
+         }
+     }
+     /* button and phone image container common for all */
+     
+     .buttonandphone {
+         display: flex;
+         flex-wrap: wrap;
+         gap: 60px;
+     }
+     /* image transformation when we hover */
+     
+     .firstphone .buttonandphone .phonepic1 :hover {
+         transform: scale(0.9);
+         transition-duration: 0.8s;
+     }
+     /* buying icons for first phone */
+     
+     .buyingicons1 {
+         display: flex;
+         flex-wrap: wrap;
+         justify-content: space-around;
+         align-items: center;
+     }
+     
+     .buyingicons1 a {
+         text-decoration: none;
+         color: #000;
+     }
+     /* secondphone  div decoration */
+     
+     .secondphone {
+         background: #f5f3f3;
+         border-radius: 10px;
+         width: 540px;
+         height: 470px;
+         padding: 20px;
+     }
+     /* @media phone image for mobile screen */
+     
+     @media(max-width:600px) {
+         .phonepic2 .realme11pro {
+             width: 200px;
+             height: 100px;
+             position: relative;
+             bottom: 60px;
+             left: 30px;
+         }
+         .secondphone {
+             height: 485px;
+         }
+     }
+     /* Second phone div buying icons postioning common for all */
+     
+     .secondphone .buyingicons2 {
+         display: flex;
+         flex-wrap: wrap;
+         justify-content: space-around;
+         align-items: center;
+     }
+     
+     .buyingicons2 a {
+         text-decoration: none;
+         color: #000;
+     }
+     /* image transformation when we hover */
+     
+     .secondphone .buttonandphone .phonepic2 :hover {
+         transform: scale(0.9);
+         transition-duration: 0.8s;
+     }
+     /* Second row phones alignment and decoration  */
+     
+     .Secondrowphones {
+         display: flex;
+         flex-wrap: wrap;
+         align-items: center;
+         justify-content: space-around;
+         margin-top: 10px;
+     }
+     /* discount offer line*/
+     
+     .Secondrowphones .offer {
+         background: #F56300;
+         border-radius: 15px;
+         padding: 4px;
+         display: inline-block;
+     }
+     /* OverAll first article  */
+     
+     .Secondrowphones .firstphone {
+         background: #f5f3f3;
+         border-radius: 10px;
+     }
+     /*Thirdphone details  */
+     
+     .Thirdphone {
+         background: #f5f3f3;
+         border-radius: 10px;
+         width: 540px;
+         height: 470px;
+         padding: 20px;
+     }
+     /* @media phone image for mobile screen */
+     
+     @media(max-width:600px) {
+         .phonepic3 .realmec53 {
+             width: 200px;
+             height: 100px;
+             position: relative;
+             bottom: 60px;
+             left: 30px;
+         }
+         .Thirdphone {
+             height: 485px;
+             margin-bottom: 10px;
+         }
+     }
+     /* buying icons position for third phone */
+     
+     .buyingicons3 {
+         display: flex;
+         flex-wrap: wrap;
+         justify-content: space-around;
+         align-items: center;
+     }
+     
+     .buyingicons3 a {
+         text-decoration: none;
+         color: #000;
+     }
+     /* image transformation when we hover phone3 */
+     
+     .Thirdphone .buttonandphone .phonepic3 :hover {
+         transform: scale(0.9);
+         transition-duration: 0.8s;
+     }
+     /*fourthphone details  */
+     
+     .fourthphone {
+         background: #f5f3f3;
+         border-radius: 10px;
+         width: 540px;
+         height: 470px;
+         padding: 20px;
+     }
+     /* @media phone image for mobile screen */
+     
+     @media(max-width:600px) {
+         .phonepic4 .narzo-55 {
+             width: 200px;
+             height: 100px;
+             position: relative;
+             bottom: 60px;
+             left: 30px;
+         }
+         .fourthphone {
+             height: 485px;
+         }
+     }
+     /* buying icons for fourth phone */
+     
+     .buyingicons4 {
+         display: flex;
+         flex-wrap: wrap;
+         justify-content: space-around;
+         align-items: center;
+     }
+     
+     .buyingicons4 a {
+         text-decoration: none;
+         color: #000;
+     }
+     /* image transformation when we hover phone3 */
+     
+     .fourthphone .buttonandphone .phonepic4 :hover {
+         transform: scale(0.9);
+         transition-duration: 0.8s;
+     }
+     /* over all accessories products */
+     
+     .firstrowproducts {
+         display: flex;
+         flex-wrap: wrap;
+         justify-content: space-around;
+         align-items: center;
+         margin-top: 10px;
+     }
+     
+     .firstrowproducts .offer {
+         background: #F56300;
+         border-radius: 15px;
+         padding: 4px;
+         display: inline-block;
+     }
+     
+     .Accessorieshead {
+         text-decoration: none;
+         color: #000;
+     }
+     
+     .Audioline1 {
+         display: flex;
+         justify-content: center;
+         padding-top: 30px;
+     }
+     /* AUDIO DECORATION */
+     
+     .audiodiv {
+         max-width: 1150px;
+         display: grid;
+         margin-left: 85px;
+         border-radius: 30px;
+         border-style: groove;
+         align-items: center;
+         justify-content: center;
+     }
+     
+     .audioimg {
+         width: 100%;
+         background-repeat: no-repeat;
+         background-size: cover;
+         border-radius: 30px;
+     }
+     
+     .overallaccessoriessec .audioimg:hover {
+         transform: scale(1.1);
+         transition: 0.8s;
+     }
+     
+     .overallaccessoriessec .audiodiv {
+         overflow: hidden;
+     }
+     
+     @media(max-width:600px) {
+         .audiodiv {
+             margin-left: 40px;
+             width: 300px;
+         }
+     }
+     
+     .firstairpod {
+         background: #f5f3f3;
+         border-radius: 10px;
+         width: 500px;
+         padding: 20px;
+     }
+     
+     .buttonandairpod {
+         display: flex;
+         flex-wrap: wrap;
+         gap: 60px;
+     }
+     
+     .buyingicons5 {
+         display: flex;
+         flex-wrap: wrap;
+         justify-content: space-around;
+         align-items: center;
+     }
+     
+     .buyingicons5 a {
+         text-decoration: none;
+         color: #000;
+     }
+     
+     .secondairpod {
+         background: #f5f3f3;
+         border-radius: 10px;
+         width: 500px;
+         padding: 20px;
+     }
+     
+     .buyingicons6 {
+         display: flex;
+         flex-wrap: wrap;
+         justify-content: space-around;
+         align-items: center;
+     }
+     
+     .buyingicons6 a {
+         text-decoration: none;
+         color: #000;
+     }
+     
+     .secondrowproducts {
+         display: flex;
+         flex-wrap: wrap;
+         justify-content: space-around;
+         margin-top: 10px;
+         margin-bottom: 10px;
+     }
+     
+     .secondrowproducts .offer {
+         background: #F56300;
+         border-radius: 15px;
+         padding: 4px;
+         display: inline-block;
+     }
+     
+     .secondrowproducts .thirdairpod {
+         background: #f5f3f3;
+         border-radius: 20px;
+         width: 500px;
+         padding: 20px;
+     }
+     
+     .thirdairpod {
+         background: #f5f3f3;
+         border-radius: 10px;
+         width: 500px;
+         padding: 20px;
+     }
+     
+     .buyingicons7 {
+         display: flex;
+         flex-wrap: wrap;
+         align-items: center;
+     }
+     
+     .buyingicons7 a {
+         text-decoration: none;
+         color: #000;
+     }
+     
+     .fourthairpod {
+         background: #f5f3f3;
+         border-radius: 10px;
+         width: 500px;
+         padding: 20px;
+     }
+     
+     .buyingicons8 {
+         display: flex;
+         flex-wrap: wrap;
+         align-items: center;
+     }
+     
+     .buyingicons8 a {
+         text-decoration: none;
+         color: #000;
+     }
+     /* image overflow for all audio when transform */
+     
+     .audiopic {
+         overflow: hidden;
+     }
+     /* image transformation when we hover all audio */
+     
+     .audiopic :hover {
+         transform: scale(0.9);
+         transition-duration: 0.8s;
+     }
+     
+     .watchdiv {
+         max-width: 1150px;
+         display: grid;
+         margin-left: 85px;
+         border-radius: 30px;
+         border-style: groove;
+         align-items: center;
+         justify-content: center;
+     }
+     
+     @media(max-width:600px) {
+         .watchdiv {
+             margin-left: 20px;
+             width: 300px;
+             height: 150px;
+         }
+     }
+     
+     .overallaccessoriessec .watchdiv {
+         overflow: hidden;
+     }
+     
+     .watchsec {
+         display: flex;
+         flex-wrap: wrap;
+         justify-content: space-evenly;
+         align-items: center;
+         margin-top: 10px;
+     }
+     
+     .watchsec .offer {
+         background: #F56300;
+         border-radius: 15px;
+         padding: 4px;
+         display: inline-block;
+     }
+     
+     .firstwatch {
+         background: #f5f3f3;
+         padding: 20px;
+         border-radius: 10px;
+         border-style: groove;
+         max-width: 310px;
+         height: 450px;
+     }
+     
+     .buyingicons9 {
+         display: flex;
+         flex-wrap: wrap;
+     }
+     
+     .buyingicons9 a {
+         text-decoration: none;
+         color: #000;
+     }
+     
+     .buttonandwatch {
+         display: flex;
+         flex-wrap: wrap;
+         align-items: center;
+         justify-content: center;
+         gap: 40px;
+     }
+     
+     .secondwatch {
+         background: #f5f3f3;
+         padding: 20px;
+         border-radius: 10px;
+         border-style: groove;
+         max-width: 310px;
+         height: 450px;
+     }
+     
+     .buyingicons10 {
+         display: flex;
+         flex-wrap: wrap;
+     }
+     
+     .buyingicons10 a {
+         text-decoration: none;
+         color: #000;
+     }
+     
+     .thirdwatch {
+         background: #f5f3f3;
+         padding: 20px;
+         border-radius: 10px;
+         border-style: groove;
+         width: 310px;
+         height: 450px;
+     }
+     
+     .buyingicons11 {
+         display: flex;
+         flex-wrap: wrap;
+         justify-content: center;
+         align-items: center;
+     }
+     
+     .buyingicons11 a {
+         text-decoration: none;
+         color: #000;
+     }
+     /* image overflow for all when transform*/
+     
+     .watchpic {
+         overflow: hidden;
+     }
+     /* image transformation when we hover all watch */
+     
+     .watchpic :hover {
+         transform: scale(0.9);
+         transition-duration: 0.8s;
+     }
+     
+     .thirdwatch .watchpic {
+         height: 165px;
+     }
+     
+     #AboutSection .container {
+         width: 100%;
+         background: #f5f3f3;
+         padding: 40px;
+         border-radius: 20px;
+         box-shadow: 5px 5px 10px;
+     }
+     
+     #contactus {
+         margin-top: 50px;
+     }
+     
+     .box {
+         width: 80% !important;
+         margin-top: 10px;
+     }
+     
+     form {
+         display: flex;
+         flex-direction: column;
+     }
+     
+     #contactus input {
+         margin: 10px 0px;
+     }
+     
+     #contactus textarea {
+         margin: 10px 0px;
+     }
+     
+     footer {
+         width: 100%;
+         height: 30px;
+         background: #000;
+         margin-top: 30px;
+         text-align: center;
+         color: white;
+         padding: 5px;
+     }
+     
+     @media (max-width:600px) {
+         .firstrowproducts .firstairpod {
+             margin-bottom: 10px;
+         }
+         .secondrowproducts .thirdairpod {
+             margin-bottom: 10px;
+         }
+         .watchsec .firstwatch {
+             margin-bottom: 10px;
+         }
+         .watchsec .secondwatch {
+             margin-bottom: 10px;
+         }
+     }

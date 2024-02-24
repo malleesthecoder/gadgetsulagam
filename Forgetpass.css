@@ -1,0 +1,119 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+
+/* background: #f5f3f3 */
+
+
+/* #ffcc00 */
+
+.Overallcontent {
+    background: #f5f3f3;
+    width: 100%;
+    height: 100vh;
+}
+
+.center_div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.Login_div {
+    background: white;
+    border-radius: 10px;
+    width: 500px;
+    height: 420px;
+    margin-top: 20px;
+    padding: 30px;
+}
+
+.head1 {
+    background: black;
+    width: max-content;
+    height: max-content;
+    color: #ffcc00;
+    padding: 5px;
+    border-radius: 10px;
+    margin: 5px;
+}
+
+.icon {
+    padding: 10px;
+    min-width: 40px;
+    margin-top: 15px;
+}
+
+.Email i {
+    position: absolute;
+}
+
+.Password i {
+    position: absolute;
+}
+
+.OTP img {
+    position: absolute;
+    margin: 12px;
+}
+
+.Input {
+    width: 90%;
+    padding: 18px;
+    text-align: center;
+    background-color: #f5f3f3;
+    border-style: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.Form {
+    padding-left: 40px;
+}
+
+.btn {
+    width: 50%;
+    padding: 10px;
+    border-radius: 10px;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+.btn a {
+    font-size: small;
+}
+
+.sign_Btn {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.sign_Btn a {
+    text-decoration: none;
+    color: #000;
+    font-size: 14px;
+}
+
+.copyright {
+    text-align: center;
+    margin-top: 50px;
+    font-size: small;
+}
+
+@media(max-width:600px) {
+    .Login_div {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .sign_Btn .Submit {
+        width: 100%;
+    }
+}

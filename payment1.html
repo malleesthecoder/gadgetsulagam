@@ -1,0 +1,154 @@
+<!Doctype html>
+<html lang='"en"'>
+
+<head>
+    <title>PaymentPage</title>
+    <link rel="stylesheet" href="./payment1.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer"
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous">
+    </script>
+</head>
+
+<body>
+    <div class="Overallcontent">
+        <div class="container-fluid pay-content">
+            <h5 class="head">GadgetsUlagam</h5>
+            <div class="give-form">
+                <form action="">
+                    <label for="name"> NAME :</label>
+                    <input class=" naming form-control" type="text" placeholder="Enter your name" required>
+                    <label for="address">DELIVERY ADDRESS :</label>
+                    <textarea class=" addressing form-control " cols="30" rows="3" required></textarea>
+                </form>
+            </div>
+            <div class="avail-payment">
+                <h6 class="sub-head">PAYMENT OPTIONS</h6>
+                <p class="avail-upi">UPI</p>
+                <form action="">
+                    <div class="form-check">
+                        <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+                        <label class="form-check-label" for="flexRadioDefault1">
+                           <img src="./payment images/google-pay.png"  style="width: 30px; height:30px;">
+                           Google Pay
+                        </label>
+                    </div>
+                    <div class="form-check">
+                        <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2">
+                        <label class="form-check-label" for="flexRadioDefault2">
+                          <img src="./payment images/apple-pay.png" style="width: 30px; height:30px;" class="pic2" alt="">
+                      Apple Pay
+                        </label>
+                    </div>
+                    <div class="form-check">
+                        <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault3">
+                        <label class="form-check-label" for="flexRadioDefault3">
+                          <img src="./payment images/amazon_pay.png" style="width: 30px; height:30px;" alt="">
+                      Amazon Pay
+                        </label>
+                    </div>
+
+                </form>
+                <div class="avail-Emi">
+                    <form action="">
+                        <p class="sub-head2">GU's Pay Easy</p>
+                        <div class="form-check">
+                            <input class="form-check-input" type="checkbox" id="check1" name="option1" value="something">
+                            <label class="form-check-label" for="check">
+                              <img src="./payment images/credit-card.png" style="width: 30px; height:30px;" alt="">
+                                  EMI (Easy Installments)
+                            </label>
+                        </div>
+                    </form>
+                </div>
+                <div class="avail-cash">
+                    <form action="">
+                        <p class="sub-head3">Opt for Cash</p>
+                        <div class="form-check">
+                            <input class="form-check-input" type="checkbox" id="check2" name="option2" value="something">
+                            <label class="form-check-label" for="check">
+                              <img src="./payment images/cash-payment.png" style="width: 30px; height:30px;" alt="">
+                                  Cash on Delivery
+                            </label>
+                        </div>
+                    </form>
+                </div>
+                <br>
+                <button class="order_confirm" onclick="">Place Order</button>
+            </div>
+
+
+
+        </div>
+        <div class="payment-side container">
+            <div class="pay-amount">
+                <h6 class="head2">PRICE DETAILS</h6>
+                <hr>
+                <table>
+                    <tr>
+                        <td>
+                            <p>Price (1 item)</p>
+                        </td>
+                        <td>
+                            <p>₹26999</p>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <p>Delivery Charges</p>
+                        </td>
+                        <td>
+                            <p class="Free">Free</p>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <p>Packing Charges</p>
+                        </td>
+                        <td>
+                            <p>₹49</p>
+                        </td>
+                    </tr>
+                </table>
+
+                <hr>
+                <table>
+                    <tr>
+                        <td>
+                            <h5>Amount Payable</h5>
+                        </td>
+                        <td>
+                            <h5>₹27048</h5>
+                        </td>
+                    </tr>
+                </table>
+
+            </div>
+            <div class="axis-bank container">
+                <img src="./payment images/axis-bank.png" style="width: 30px; height:30px;" alt="">
+                <p>5% Cashback on Flipkart Axis Bank Card</p>
+
+            </div>
+            <div class="verify-security container">
+                <img src="./payment images/verified.png" class="Secure" style="width: 30px; height:30px;" alt="">
+                <h6>Safe and Secure Payments.Easy returns.100% <br>Authentic-products.</h6>
+            </div>
+
+        </div>
+        <hr>
+
+        <!-- <button class="btn">Place Order</button> -->
+    </div>
+    <!-- <footer class="copyright">
+        Policies: Return Policy | Terms of use | Security | Infrigment Copyright © 2024 GadgetsUlagam @Malleeswaran All rights reserved.
+    </footer> -->
+
+    <p class="final-line">Policies: Return Policy | Terms of use | Security | Infrigment <i class="fa-regular fa-copyright" style="color: #070808;"></i>2023-2024 GadgedtsUlagam.com @Malleeswaran</p>
+
+
+
+
+
+</body>
+
+</html>

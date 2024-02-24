@@ -1,0 +1,167 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+.Overallcontent {
+    background: #f5f3f3;
+    width: 100%;
+    height: 100vh;
+}
+
+.center_div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.Login_div {
+    background: white;
+    border-radius: 10px;
+    width: 500px;
+    height: 500px;
+    margin-top: 20px;
+    padding: 10px;
+}
+
+.head1 {
+    background: black;
+    width: max-content;
+    height: max-content;
+    color: #ffcc00;
+    padding: 5px;
+    border-radius: 10px;
+    margin: 5px;
+}
+
+.head2 {
+    text-align: center;
+    margin: 30px;
+}
+
+.Email .Password {
+    width: 100%;
+    margin-bottom: 15px;
+}
+
+.email {
+    margin-bottom: 15px;
+    width: 100%;
+    background: #f5f3f3;
+    align-items: center;
+}
+
+.icon {
+    padding: 10px;
+    min-width: 40px;
+    margin-top: 15px;
+}
+
+.Email i {
+    position: absolute;
+}
+
+.Password i {
+    position: absolute;
+}
+
+.Input {
+    width: 90%;
+    padding: 18px;
+    text-align: center;
+    background-color: #f5f3f3;
+    border-style: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.Password {
+    margin-top: 15px;
+}
+
+.Form {
+    padding-left: 50px;
+}
+
+.btn {
+    width: 50%;
+    padding: 10px;
+    border-radius: 10px;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+.btn a {
+    font-size: small;
+}
+
+.Forget {
+    text-align: end;
+    width: 90%;
+}
+
+.sign_Btn {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.sign_Btn a {
+    text-decoration: none;
+    color: #000;
+    font-size: 14px;
+}
+
+.Forget a {
+    text-decoration: none;
+    color: blue;
+    font-size: small;
+    text-align: right;
+}
+
+.btn .Insta {
+    color: rgb(239, 10, 10);
+    font-size: 15px;
+}
+
+.btn .Fb {
+    color: rgb(10, 10, 213);
+    font-size: 15px;
+}
+
+.copyright {
+    text-align: center;
+    margin-top: 10px;
+    font-size: small;
+}
+
+@media(max-width:600px) {
+    .Email input {
+        width: 250px;
+    }
+    .Password input {
+        width: 250px;
+    }
+    .Signed {
+        width: 200px;
+    }
+    .sign_Btn {
+        width: 100%;
+        padding: 5px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .copyright {
+        margin-top: 30px;
+    }
+    .Login_div {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+}
