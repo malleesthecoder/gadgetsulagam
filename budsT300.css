@@ -1,0 +1,181 @@
+                * {
+                    margin: 0;
+                    padding: 0;
+                    box-sizing: border-box;
+                    font-family: 'Poppins', sans-serif;
+                }
+                
+                .heading {
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    margin: 15px;
+                }
+                
+                @media (max-width:600px) {
+                    .price-buy {
+                        height: 50px;
+                        width: 50px;
+                    }
+                    .target .price-buy .buynow {
+                        width: 80px;
+                    }
+                }
+                
+                .heading2 {
+                    margin-top: 30px;
+                }
+                
+                .review {
+                    padding-bottom: 40px;
+                }
+                
+                .review h1 {
+                    text-align: center;
+                }
+                
+                table,
+                td {
+                    padding: 15px;
+                    letter-spacing: 2px;
+                    margin-left: 100px;
+                    border-bottom: 2px solid transparent;
+                }
+                
+                .specs {
+                    width: 100%;
+                }
+                
+                @media(max-width:600px) {
+                    table,
+                    td {
+                        margin-left: 0;
+                    }
+                }
+                
+                .review {
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+                    margin-top: 10px;
+                }
+                
+                .airpod-pics {
+                    display: flex;
+                    flex-wrap: wrap;
+                    width: 100%;
+                }
+                
+                .airpod-buy {
+                    width: 70%;
+                    height: 50%;
+                    padding: 45px;
+                    background: #f5f3f3;
+                    border-radius: 20px;
+                    box-shadow: 5px 5px 15px;
+                }
+                
+                .allspec .heading2 {
+                    text-align: center;
+                }
+                
+                .airpod-buy .airpod-pics .first-airpod:hover {
+                    transform: scale(1.4);
+                    transition-duration: 1.2s;
+                    cursor: pointer;
+                }
+                
+                .airpod-buy .airpod-pics .scnd-airpod:hover {
+                    transform: scale(1.4);
+                    transition-duration: 1.2s;
+                    cursor: pointer;
+                }
+                
+                .airpod-buy .airpod-pics .third-airpod:hover {
+                    transform: scale(1.4);
+                    transition-duration: 1.2s;
+                    cursor: pointer;
+                }
+                
+                .target {
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                }
+                
+                .target .airpod-buy {
+                    display: grid;
+                    grid-template-columns: auto auto;
+                }
+                
+                .price-buy .color {
+                    cursor: pointer;
+                }
+                
+                .price-buy h6 {
+                    display: inline;
+                    background: #ffcc00;
+                    padding: 4px;
+                    border-radius: 7px;
+                }
+                
+                .price-buy .storage {
+                    padding: 10px;
+                    border-style: groove;
+                    border-radius: 10px;
+                }
+                
+                .price-buy .color {
+                    padding: 10px;
+                    border-style: groove;
+                    border-radius: 10px;
+                }
+                
+                .price-buy .buynow {
+                    padding: 10px;
+                    text-align: center;
+                    width: 212px;
+                }
+                
+                .price-buy .buynow a {
+                    text-decoration: none;
+                    color: black;
+                }
+                
+                .target .price-buy .buynow {
+                    font-size: large;
+                    border-radius: 10px;
+                    background: #F56300;
+                }
+                
+                .target .price-buy .buynow:hover {
+                    background: white;
+                    cursor: pointer;
+                }
+                
+                .price-buy h2 {
+                    color: #ff0000;
+                    padding: 10px;
+                }
+                
+                .specs {
+                    width: 100%;
+                }
+                
+                @media(max-width:600px) {
+                    iframe {
+                        width: 330px;
+                        height: 207px;
+                    }
+                }
+                
+                .backbtn i {
+                    padding: 20px;
+                }
+                
+                @media(max-width:600px) {
+                    .price-buy .color {
+                        padding: 5px;
+                        margin-top: 5px;
+                    }
+                }
